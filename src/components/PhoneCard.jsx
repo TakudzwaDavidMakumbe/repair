@@ -13,13 +13,13 @@ export default function PhoneCard({ phone, onAddToCart }) {
         <div className="flex justify-between">
           <button
             onClick={() => setIsModalOpen(true)}
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+            className="bg-blue-500 md:w-[40%] text-white px-4 py-2 rounded hover:bg-blue-600"
           >
             View More
           </button>
           <button
             onClick={() => onAddToCart(phone)}
-            className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+            className="bg-gradient-to-r from-red-500 to-red-600 md:w-[40%] text-white px-4 py-2 rounded hover:bg-green-600"
           >
             Add to Cart
           </button>

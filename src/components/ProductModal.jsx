@@ -1,6 +1,10 @@
 import { Dialog } from '@headlessui/react';
 
 export default function ProductModal({ isOpen, onClose, phone }) {
+  if (!phone) {
+    return null; // Render nothing if phone is undefined
+  }
+
   return (
     <Dialog open={isOpen} onClose={onClose} className="relative z-50">
       <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
@@ -14,7 +18,7 @@ export default function ProductModal({ isOpen, onClose, phone }) {
           <div className="mb-4">
             <h3 className="font-semibold mb-2">Colors:</h3>
             <div className="flex gap-2">
-              {phone.colors.map(color => (
+              {phone.colors?.map(color => (
                 <span key={color} className="px-2 py-1 bg-gray-100 rounded text-sm">
                   {color}
                 </span>
@@ -25,7 +29,7 @@ export default function ProductModal({ isOpen, onClose, phone }) {
           <div className="mb-4">
             <h3 className="font-semibold mb-2">Features:</h3>
             <ul className="list-disc list-inside">
-              {phone.features.map(feature => (
+              {phone.features?.map(feature => (
                 <li key={feature} className="text-gray-600">{feature}</li>
               ))}
             </ul>
