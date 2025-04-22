@@ -15,7 +15,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white text-black bold shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -25,7 +25,7 @@ export default function Navbar() {
                 alt="Logo"
                 className="h-8 w-auto"
               />
-              <span className="ml-2 text-xl font-bold">RepairBox.</span>
+              <span className="ml-2  ">RepairBox</span>
             </Link>
           </div>
 

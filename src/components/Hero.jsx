@@ -6,20 +6,20 @@ import { CircleDollarSign, Cog } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen  bg-gradient-to-b from-[#f5f0ff] to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+    <div className="min-h-screen  bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-1">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-blue-600">
+            <h1 className="text-4xl mt-20 md:mt-0 bold sm:text-5xl lg:text-5xl bg-clip-text text-transparent bg-black">
               Professional Device Repairs
             </h1>
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 regular text-lg leading-relaxed">
               It's never been easier to render your device unusable after
               dropping it. Our professional technicians will diagnose and repair
               your device within a stipulated time allowing you to get back to
               good old times in no more than 24 hours after the accident.
             </p>
-            <button className="bg-blue-900 text-white px-8 py-4 rounded-lg font-medium hover:bg-blue-800 transform hover:scale-105 transition-all shadow-lg">
+            <button className="bg-orange-500 regular w-full md:w-[80%]  text-white px-8 py-4 rounded-lg font-medium hover:bg-blue-800 transform hover:scale-105 transition-all shadow-lg">
               Talk to an Expert →
             </button>
 
@@ -44,15 +44,15 @@ const Hero = () => {
             </div> */}
           </div>
 
-          <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-3xl opacity-30 blur-3xl"></div>
+          <div className="relative regular">
+            <div className="absolute -inset-4 bg-gradient-to-r bg-orange-500 to-orange-500 rounded-3xl opacity-30 blur-3xl"></div>
             <img src={img} alt="iPhone X" className="relative w-full h-auto hover:scale-105 transition-transform duration-500" />
           </div>
         </div>
 
         
-        <div className="w-full md:  px-10  mb-3 md:mb-0  md:flex md:px-30 ">
-        <div className="bg-blue-900 rounded-xl   md:flex w-full ">
+        {/* <div className="w-full md: regular  px-10  mb-3 md:mb-0  md:flex md:px-30 ">
+        <div className="bg-orange-500 rounded-xl   md:flex w-full ">
           <div className="md:w-[40%] border-r-white border-r  hover:shadow-xl transition-shadow transform hover:-translate-x-1 hover:-translate-y-1     md:pt-7 md:px-10 md:py-5">
           <div className="flex  gap-1 justify-center items-center  rounded-full w-fit mb-1">
               <Cog className="w-6 h-6 text-white" />
@@ -97,7 +97,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div className="bg-white h-[25vh] p-4 rounded-2xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-1">
             <div className="bg-blue-100  rounded-full w-fit mb-1">

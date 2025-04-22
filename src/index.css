@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: bold;
+    src: url(../public/Milker.otf);
+}
+.bold {
+    font-family: bold;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../public/Poppins-Light.ttf);
+}
+.regular {
+    font-family: regular;
+}
+
+@font-face {
+    font-family: nava;
+    src: url(../public/Navada.otf);
+}
+.nava{
+    font-family: nava;
+}
+
+font-face {
+    font-family: zero;
+    src: url(../public/underwho.ttf);
+}
+.zero{
+    font-family: zero;
+}

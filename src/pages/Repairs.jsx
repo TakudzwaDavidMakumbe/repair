@@ -47,19 +47,19 @@ export default function Repairs() {
   };
 
   return (
-    <div className="bg-white py-16">
+    <div className="bg-gray-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center mb-12">iPhone Repair Services</h1>
+        <h1 className="text-4xl font-bold text-center mb-12">Phone Repair Services</h1>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {services.map((service, i) => (
-            <div key={i} className="bg-gray-50 p-6 rounded-lg text-center">
-              <div className="h-fit w-[60%] bg-blue-600 rounded-2xl mx-auto mb-4"><img className='w-[100%]' src={service.img} alt="" /></div>
+            <div key={i} className="bg-white p-6 rounded-lg text-center">
+              <div className="h-fit w-[60%]  rounded-2xl mx-auto mb-4"><img className='w-[100%]' src={service.img} alt="" /></div>
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-gray-600 mb-4">{service.price}</p>
               <button
                 onClick={() => handleBooking(service)}
-                className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700"
+                className="bg-blue-600 text-white px-6 w-full py-2 rounded-lg hover:bg-blue-700"
               >
                 Book Now
               </button>
@@ -67,13 +67,13 @@ export default function Repairs() {
           ))}
 
           {/* Custom Problem Card */}
-          <div className="bg-gray-50 p-6 rounded-lg text-center">
+          <div className="bg-white rounded-lg py-10 shadow-md text-center">
             <div className="h-fit w-[60%] bg-blue-600 rounded-lg mx-auto mb-4"><img className='w-[100%]' src={img16} alt="" /></div>
             <h3 className="text-xl font-semibold mb-2">Other Problems</h3>
             <p className="text-gray-600 mb-4">Have a different issue?</p>
             <button
               onClick={() => setIsCustomModalOpen(true)}
-              className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700"
+              className="bg-blue-600 text-white px-6 w-[90%] py-2 rounded-lg hover:bg-green-700"
             >
               Create
             </button>
