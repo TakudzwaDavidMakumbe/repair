@@ -49,7 +49,7 @@ export default function Home() {
       </section>
 
       {/* About Founder */}
-      <section className="py-16">
+      <section className="">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-16 bg-gray-50">
+      <section className=" bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">What Our Customers Say</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -167,7 +167,7 @@ export default function Home() {
        {/* --- section start --- */}
        <div className="md:mt-10 md:mb-10  py-3 mb-3  md:py-0">
       <div className="w-full">
-        <img src={image} alt="" className="rounded-lg" />
+        <img src={image} alt="" className="rounded-lg w-full" />
       </div>
       </div>
       {/* --- section end --- */}

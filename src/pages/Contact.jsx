@@ -176,7 +176,7 @@ export default function Contact() {
                   </div>
                   <div className="mt-4">
                     <h4 className="font-medium text-gray-800">
-                      ByWord Headquarters
+                      RepairBox
                     </h4>
                     <address className="not-italic text-gray-600 mt-1">
                       123 Auto Street, Car City, CC 12345
