@@ -49,7 +49,7 @@ export default function Home() {
       </section>
 
       {/* About Founder */}
-      <section className="">
+      <section className="mb-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -64,7 +64,7 @@ export default function Home() {
                 service center, serving thousands of satisfied customers.
               </p>
             </div>
-            <div className=" h-96 rounded-lg">
+            <div className="  rounded-lg">
             <img
             className="rounded-lg w-[100%] h-auto"
             src={img}

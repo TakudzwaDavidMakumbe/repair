@@ -19,7 +19,7 @@ const Hero = () => {
               your device within a stipulated time allowing you to get back to
               good old times in no more than 24 hours after the accident.
             </p>
-            <button className="bg-orange-500 regular w-full md:w-[80%]  text-white px-8 py-4 rounded-lg font-medium hover:bg-blue-800 transform hover:scale-105 transition-all shadow-lg">
+            <button className="bg-blue-500 regular w-full md:w-[80%]  text-white px-8 py-4 rounded-lg font-medium hover:bg-blue-800 transform hover:scale-105 transition-all shadow-lg">
               Talk to an Expert →
             </button>
 

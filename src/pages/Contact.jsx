@@ -139,7 +139,7 @@ export default function Contact() {
 
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-red-500 to-red-600 text-white font-medium py-3 rounded-md flex items-center justify-center hover:opacity-90 transition-opacity duration-300"
+                    className="w-full bg-blue-500 text-white font-medium py-3 rounded-md flex items-center justify-center hover:opacity-90 transition-opacity duration-300"
                   >
                     <Send className="mr-2 h-5 w-5" /> Send Message
                   </button>
